@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background-color: #83cff0;
+  color: white;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img_hero {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  position: relative;
+}
+
+.title_hero {
+  position: absolute;
+  top: 150px;
+  font-size: 50px;
+  filter: drop-shadow(4px 4px 4px rgb(0, 0, 0));
+}
+
+.descri_hero {
+  font-size: 25px;
+  position: absolute;
+  top: 250px;
+  max-width: 500px;
+  filter: drop-shadow(6px 6px 6px rgb(0, 0, 0));
+}
+.titleDue {
+  font-size: 30px;
+}
+.container {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  margin: 50px 0;
+}
+.container::-webkit-scrollbar {
+  width: 20px;
+  height: 15px;
+  background-color: #fff;
+  margin: 20px;
+  padding: 8px;
+}
+.container::-webkit-scrollbar-thumb {
+  background-color: #1fb5f5;
+  width: 5px;
+  height: 10px;
+  border-radius: 8px;
+}
+.card {
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #4ec4f6;
+  min-width: 280px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img_card {
+  width: 140px;
+}
+.btn_card {
+  border: none;
+  background-color: #4ec4f6;
+  color: #fff;
+  border-radius: 8px;
+  padding: 6px 12px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.btn_card:hover {
+  background-color: #fff;
+  color: #4ec4f6;
+}
+
+@media screen and (max-width: 650px) {
+  .title_hero {
+    top: 100px;
+  }
+}
