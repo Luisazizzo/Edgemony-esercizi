@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lobster", cursive;
+  background: rgb(84, 224, 208);
+  background: linear-gradient(
+    0deg,
+    rgba(84, 224, 208, 1) 0%,
+    rgba(7, 179, 171, 0.8463760504201681) 100%
+  );
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.title-todo {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 40px;
+  cursor: crosshair;
+}
+
+.title-todo:hover {
+  color: #873845;
+}
+
+.container {
+  border: 1px solid white;
+  width: 800px;
+  margin: auto;
+}
+
+.card-todo {
+  border: 1px solid rgba(255, 255, 255, 0.576);
+  padding: 20px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.circle-bg {
+  background-color: #873845;
+}
+
+.id-span {
+  font-size: 20px;
+}
+
+.todo-para {
+  font-size: 22px;
+  transition: all 0.35s;
+  cursor: crosshair;
+}
+
+.todo-para:hover {
+  transform: scale(1.2);
+  color: #873845;
+}
+
+.decoration {
+  text-decoration: line-through;
+}
