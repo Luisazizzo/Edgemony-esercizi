@@ -12,39 +12,33 @@
     />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
-    <script src="./posts.js" type="module"></script>
+    <script src="./script.js" type="module"></script>
   </head>
   <body>
     <header>
-      <h1 class="title">Beautique</h1>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li>Chi siamo</li>
-        <li>contatti</li>
-        <li class="carrello">Carrello</li>
-      </ul>
+      <div class="nav">
+        <div class="logo">
+          <img class="menu" src="./img/menu.png" alt="menu" />
+          <h1 class="title">Beautique</h1>
+        </div>
+        <div class="login">
+          <img class="carrello" src="./img/carrello.png" alt="shop" />
+          <p class="piu"><a href="form.html">+</a></p>
+          <img src="./img/preferiti.png" alt="#" />
+          <img src="./img/user.png" alt="#" />
+        </div>
+      </div>
       <div class="tendina-menu"></div>
     </header>
     <section class="hero-img">
       <img src="./img/foto3.jpg" alt="immagine" />
     </section>
-    <section class="form">
-      <h1 class="title-form">Aggiungi i tuoi prodotti</h1>
-
-      <form class="form-style" id="formProducts">
-        <label>Inserisci il titolo: <input type="text" id="title" /></label>
-        <label>Inserisci il prezzo: <input type="number" id="price" /></label>
-        <label
-          >Inserisci la categoria: <input type="number" id="category"
-        /></label>
-        <label>Inserisci un'immagine: <input type="text" id="img" /></label>
-        <label
-          >Inserisci la descrizione: <textarea id="description"></textarea>
-        </label>
-        <input class="btn-submint" type="submit" value="INVIA" />
-      </form>
-    </section>
-
+    <h2 class="title-container">Aggiunti di recente</h2>
+    <section id="container" class="container"></section>
+    <h2 class="title-container">I più venduti</h2>
+    <section id="container2" class="container"></section>
+    <h2 class="title-container">Le migliori recensioni</h2>
+    <section id="container3" class="container"></section>
     <footer>
       <div class="footer">
         <div>

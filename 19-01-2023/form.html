@@ -16,13 +16,18 @@
   </head>
   <body>
     <header>
-      <h1 class="title">Beautique</h1>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li>Chi siamo</li>
-        <li>contatti</li>
-        <li class="carrello">Carrello</li>
-      </ul>
+      <div class="nav">
+        <div class="logo">
+          <img class="menu" src="./img/menu.png" alt="menu" />
+          <h1 class="title"><a href="index.html">Beautique</a></h1>
+        </div>
+        <div class="login">
+          <img class="carrello" src="./img/carrello.png" alt="shop" />
+          <p class="piu"><a href="form.html">+</a></p>
+          <img src="./img/preferiti.png" alt="#" />
+          <img src="./img/user.png" alt="#" />
+        </div>
+      </div>
       <div class="tendina-menu"></div>
     </header>
     <section class="hero-img">
@@ -45,6 +50,21 @@
       </form>
     </section>
 
+    <section class="form">
+      <h1 class="title-form">Aggiungi la tua categoria</h1>
+
+      <form class="form-style" id="categoryForm">
+        <label
+          >Inserisci il nome della categoria:
+          <input name="name" type="text" id="categoryName" required
+        /></label>
+        <label
+          >Immagine della categoria:
+          <input name="image" type="url" id="categoryImage" required
+        /></label>
+        <input class="btn-submint" type="submit" value="INVIA" />
+      </form>
+    </section>
     <footer>
       <div class="footer">
         <div>

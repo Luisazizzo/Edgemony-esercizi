@@ -77,6 +77,7 @@ const aggiuntaProductcs = () => {
     deleteEl.addEventListener("click", () => {
       divCart.remove();
       carrelloArray.splice(index, 1);
+      aggiuntaProductcs();
     });
   });
 };
