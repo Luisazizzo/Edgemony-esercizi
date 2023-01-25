@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "https://robohash.org/hicveldicta.png",
+    "nome": "Luisa",
+    "cognome": "Zizzo",
+    "annoDiNascita": "22-07-1995",
+    "occhi": "azzurri",
+    "capelli": "biondi",
+    "sesso": "F"
+  },
+  {
+    "id": 2,
+    "image": "https://robohash.org/doloremquesintcorrupti.png",
+    "nome": "Mario",
+    "cognome": "Zizzo",
+    "annoDiNascita": "18-04-1985",
+    "occhi": "azzurri",
+    "capelli": "biondi",
+    "sesso": "M"
+  },
+  {
+    "id": 3,
+    "image": "https://robohash.org/consequunturautconsequatur.png",
+    "nome": "Maria",
+    "cognome": "Zizzo",
+    "annoDiNascita": "20-05-1981",
+    "occhi": "castani",
+    "capelli": "castani",
+    "sesso": "F"
+  },
+  {
+    "id": 4,
+    "image": "https://robohash.org/facilisdignissimosdolore.png",
+    "nome": "Giuseppe",
+    "cognome": "Zizzo",
+    "annoDiNascita": "01-07-1976",
+    "occhi": "castani",
+    "capelli": "castani",
+    "sesso": "M"
+  },
+  {
+    "id": 5,
+    "image": "https://robohash.org/adverovelit.png",
+    "nome": "Rosa",
+    "cognome": "Licata",
+    "annoDiNascita": "27-02-1959",
+    "occhi": "castani",
+    "capelli": "castani",
+    "sesso": "F"
+  },
+  {
+    "id": 6,
+    "image": "https://robohash.org/laboriosamfacilisrem.png",
+    "nome": "Gaetano",
+    "cognome": "Zizzo",
+    "annoDiNascita": "10-06-1949",
+    "occhi": "azzurri",
+    "capelli": "biondi",
+    "sesso": "M"
+  }
+]
