@@ -18,7 +18,7 @@ body {
   position: relative;
   transition: all 1s;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 }
 h1 {
   text-align: center;
@@ -44,6 +44,7 @@ h1 {
   padding: 60px;
   border-radius: 12px;
   border: 8px solid rgba(0, 0, 0, 0.562);
+  margin-bottom: 30px;
 }
 .status-container {
   box-shadow: 0 0 4px rgb(0, 0, 0);
