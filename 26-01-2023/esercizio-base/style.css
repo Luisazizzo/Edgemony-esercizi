@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  background-color: #ee82ee;
+}
+img {
+  width: 150px;
+  margin-top: 100px;
+}
+.timer-h1 {
+  margin: 40px;
+  font-size: 60px;
+}
+.btn-avvia {
+  display: none;
+}
+.btn-avvia,
+.btn-clear {
+  font-weight: bold;
+  padding: 6px 10px;
+  border: none;
+  border-bottom: 4px solid #ae00ff;
+  background-color: #bc8fe7;
+  color: #fff;
+  box-shadow: 0px 0px 4px #000;
+  cursor: pointer;
+  margin-top: 50px;
+  transition: all 0.35s;
+}
+.btn-avvia:hover {
+  background-color: #ae00ff;
+  transform: scale(1.2);
+}
+.btn-clear:hover {
+  background-color: #ae00ff;
+  transform: scale(1.2);
+}
+.display {
+  display: block;
+}
