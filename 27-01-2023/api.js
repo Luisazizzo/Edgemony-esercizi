@@ -9,9 +9,9 @@ const GET = async (type = "tv", resource) => {
   return data;
 };
 
-const GET_SEARCH = async (query, type = "search/tv") => {
+const GET_SEARCH = async (query, type) => {
   const res = await fetch(
-    `${BASE_URL}${type}?api_key=${API_KEY}&language=it-IT&page=1&query=${query}&include_adult=false`
+    `${BASE_URL}search/${type}?api_key=${API_KEY}&language=it-IT&page=1&query=${query}&include_adult=false`
   );
   const data = await res.json();
   return data;

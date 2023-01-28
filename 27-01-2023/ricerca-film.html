@@ -17,9 +17,9 @@
   <body>
     <nav class="nav-bar">
       <div class="title-logo" id="search-page">
-        <a href="./index.html"><h1>Movies</h1></a>
-        <p>Film</p>
-        <p>Serie TV</p>
+        <a href="./index.html"><h1>Movies and TV series</h1></a>
+        <a href="index-film.html"><p>Film</p></a>
+        <a href="index.html"><p>Serie TV</p></a>
         <p>Account</p>
       </div>
       <div class="search">
@@ -27,11 +27,12 @@
       </div>
     </nav>
     <section class="input">
-      <form id="form">
-        <label>Inserisci la serie che vuoi vedere:</label>
-        <input type="search" id="search" />
-        <input type="submit" value="Cerca" class="cerca" />
-      </form>
+      <label>Inserisci la serie che vuoi vedere:</label>
+      <input type="search" id="search" />
+      <select id="change">
+        <option value="movie">Movies</option>
+        <option value="tv">TV series</option>
+      </select>
     </section>
     <div class="container-search"></div>
   </body>

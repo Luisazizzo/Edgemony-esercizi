@@ -8,8 +8,7 @@ const sectionInput = document.querySelector(".input");
 const containerEl = document.querySelector(".container");
 
 const userCard = (data) => {
-  const { firstName, lastName, gender, birthDate, image, address, state } =
-    data;
+  const { firstName, lastName, gender, birthDate, image, address } = data;
 
   const wrapper = cE("div");
   wrapper.className = "wrapper";
