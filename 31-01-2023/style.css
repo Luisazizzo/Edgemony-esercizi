@@ -1,0 +1,21 @@
+body {
+  background-color: #f2c8de;
+  color: #f10a83;
+}
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+a {
+  text-decoration: none;
+  color: #f10a83;
+  cursor: pointer;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
