@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Cent'anni di solitudine",
+    "author": "Gabriel Garcia Marquez",
+    "genere": "Non lo so",
+    "prezzo": 20
+  },
+  {
+    "id": 2,
+    "title": "La coscienza di Zeno",
+    "author": "Italo Svevo",
+    "genere": "Non lo so",
+    "prezzo": 25
+  },
+  {
+    "id": 3,
+    "title": "Pinocchio",
+    "author": "Carlo collodi",
+    "genere": "Non lo so",
+    "prezzo": 28
+  },
+  {
+    "id": 4,
+    "title": "Il Conte di Montecristo",
+    "author": "Alexandre Dumas",
+    "genere": "Non lo so",
+    "prezzo": 16
+  },
+  {
+    "id": 5,
+    "title": "Il piccolo principe",
+    "author": "Antoine de Saint-Exupery",
+    "genere": "Non lo so",
+    "prezzo": 30
+  }
+]
