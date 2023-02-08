@@ -11,7 +11,7 @@ app.get("/api/user", (req, res) => {
 });
 
 app.post("/api/user", (req, res) => {
-  const { title, body, userId } = req.body; //contenuto della richiesta post
+  const { title, body, userId } = req.body;
   if (!title || !body || !userId) {
     return res
       .status(400)
