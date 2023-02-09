@@ -1,0 +1,26 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mi presento</title>
+  </head>
+  <body>
+    {{> header }}
+
+    {{> image}}
+
+   <p class="title">{{titolo}}</p> 
+
+<div class="form">
+    <h1>Scrivi il tuo nome</h1>
+    <form action="/login" method="POST">
+      <label>Inserisci il tuo nome</label>
+      <input type="text" name="name" placeholder="nome" />
+      <button type="submit">Invia</button>
+    </form>
+</div>
+    {{> footer }}
+  </body>
+</html>
