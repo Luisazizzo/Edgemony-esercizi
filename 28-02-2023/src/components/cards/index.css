@@ -1,0 +1,12 @@
+.Cards {
+  width: 250px;
+  border: 1px solid #00000047;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #ffffffab;
+  border-radius: 6px;
+  box-shadow: 4px 4px 4px #0000007e;
+}

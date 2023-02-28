@@ -1,0 +1,22 @@
+.Header header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(76, 197, 174, 0.529);
+  padding: 10px 20px;
+}
+.Header header img {
+  width: 100px;
+}
+.Header header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  margin-right: 60px;
+}
+.Header header a {
+  text-decoration: none;
+  color: black;
+}
