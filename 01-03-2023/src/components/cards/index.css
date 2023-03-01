@@ -1,0 +1,15 @@
+.Cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 180px;
+  height: 280px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 4px 4px 4px #000;
+  padding: 10px;
+}
+.Cards img {
+  width: 150px;
+}
