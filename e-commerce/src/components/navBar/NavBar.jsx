@@ -1,15 +1,6 @@
-import { useState } from "react";
 import "./index.css";
 
-const Navbar = () => {
-  const [inputValue, setInputValue] = useState("");
-
-  const onHandleInput = (e) => setInputValue(() => e.target.value);
-
-  const onHandleSubmit = (e) => {
-    e.preventDefault();
-  };
-
+const Navbar = ({ onHandleSubmit, onHandleInput, inputValue }) => {
   return (
     <div className="Navbar">
       <ul>
@@ -22,7 +13,7 @@ const Navbar = () => {
           value={inputValue}
           onChange={onHandleInput}
           type="text"
-          placeholder="Cerca prodotto ..."
+          placeholder="Scegli una categoria..."
           required
         />
       </form>

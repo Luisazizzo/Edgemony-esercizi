@@ -1,15 +1,7 @@
 import MiniCard from "../miniCard/MiniCard";
-import { GET } from "../../utils/http";
-import { useState, useEffect } from "react";
 import "./index.css";
 
-const MiniCardList = () => {
-  const [miniCards, setMiniCards] = useState([]);
-
-  useEffect(() => {
-    GET("/products").then((data) => setMiniCards(() => data.products));
-  }, []);
-
+const MiniCardList = ({ miniCards }) => {
   return (
     <div className="MiniCardList">
       {miniCards.map((card) => (
