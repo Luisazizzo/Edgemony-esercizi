@@ -1,0 +1,26 @@
+.Navbar {
+  padding: 20px;
+  font-weight: bold;
+  color: white;
+}
+.Navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Navbar ul li {
+  list-style: none;
+  cursor: pointer;
+}
+.NavBar__form {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.NavBar__form input {
+  padding: 10px 20px;
+  border: none;
+  background-color: #fff;
+  border-radius: 6px;
+}

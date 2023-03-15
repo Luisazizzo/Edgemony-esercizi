@@ -1,0 +1,13 @@
+.CardList h2 {
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+}
+.CardList__list {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  height: 482px;
+  padding: 10px 20px;
+}
