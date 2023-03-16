@@ -1,0 +1,14 @@
+.TendinaCart {
+  width: 400px;
+  height: 500px;
+  background-color: #fff;
+  position: fixed;
+  top: 80px;
+  right: -500px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  transition: all 0.35s;
+}
+.show {
+  right: 0;
+}

@@ -1,9 +1,12 @@
 import { shortDescription } from "../../utils/func";
 import "./index.css";
 
-const Card = ({ productData }) => {
+const Card = ({ productData, setCardDescription }) => {
+  const openCard = () => {
+    setCardDescription(productData);
+  };
   return (
-    <div className="Card">
+    <div onClick={openCard} className="Card">
       <img
         className="Card__image"
         src={productData.thumbnail}

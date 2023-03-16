@@ -1,0 +1,12 @@
+.CartItem {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.CartItem img {
+  width: 50px;
+}
+.delete-cart {
+  cursor: pointer;
+}

@@ -4,7 +4,7 @@ import Card from "../card/Card";
 import Loading from "../Loading/Loading";
 import "./index.css";
 
-const CardList = ({ title, endpoint }) => {
+const CardList = ({ title, endpoint, setCardDescription }) => {
   const [productsList, setProductsList] = useState([]);
 
   useEffect(() => {
@@ -17,7 +17,11 @@ const CardList = ({ title, endpoint }) => {
       <div className="CardList__list">
         {productsList.length > 0 ? (
           productsList.map((product) => (
-            <Card productData={product} key={product.id} />
+            <Card
+              setCardDescription={setCardDescription}
+              productData={product}
+              key={product.id}
+            />
           ))
         ) : (
           <Loading />
