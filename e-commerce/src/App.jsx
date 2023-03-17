@@ -4,7 +4,7 @@ import MiniCardList from "./components/miniCardList/MiniCardList";
 import CardList from "./components/cardList/cardList";
 import TendinaCart from "./components/tendinaCart/TendinaCart";
 import CardDescription from "./components/cardDescription";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { GET } from "./utils/http";
 import "./App.css";
 
@@ -28,9 +28,14 @@ function App() {
     setInputValue("");
   };
 
+  useEffect(() => {
+    localStorage.setItem("carrello", JSON.stringify(cart));
+  }, [cart]);
+
   return (
     <div className="App">
       <Navbar
+        cart={cart}
         setTendinaCart={setTendinaCart}
         onHandleInput={onHandleInput}
         onHandleSubmit={onHandleSubmit}
@@ -52,6 +57,7 @@ function App() {
       <TendinaCart cart={cart} setCart={setCart} tendinaCart={tendinaCart} />
       {cardDescription ? (
         <CardDescription
+          cart={cart}
           setCart={setCart}
           cardDescription={cardDescription}
           setCardDescription={setCardDescription}

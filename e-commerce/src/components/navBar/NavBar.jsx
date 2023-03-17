@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { FiShoppingCart, FiAlignJustify } from "react-icons/fi";
 import "./index.css";
 
@@ -6,7 +7,15 @@ const Navbar = ({
   onHandleInput,
   inputValue,
   setTendinaCart,
+  cart,
 }) => {
+  const [quantita, setQuantita] = useState(0);
+
+  useEffect(() => {
+    setQuantita(0);
+    cart.forEach((item) => setQuantita((prev) => prev + item.qty));
+  }, [cart]);
+
   const toggleTendina = () => {
     setTendinaCart((prev) => !prev);
   };
@@ -20,7 +29,8 @@ const Navbar = ({
         <li>Home</li>
         <li>Contacts</li>
         <li>About us</li>
-        <li>
+        <li className="cart-qty-icons">
+          <p className="qtyCart">{quantita}</p>
           <FiShoppingCart onClick={toggleTendina} className="cart" />
         </li>
       </ul>

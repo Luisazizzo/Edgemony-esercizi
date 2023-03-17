@@ -34,3 +34,17 @@
 .menu {
   font-size: 20px;
 }
+.cart-qty-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qtyCart {
+  border: 2px solid #fff;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}

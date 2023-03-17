@@ -1,5 +1,6 @@
 .TendinaCart {
-  width: 400px;
+  padding: 10px;
+  width: 500px;
   height: 500px;
   background-color: #fff;
   position: fixed;
@@ -8,7 +9,12 @@
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
   transition: all 0.35s;
+  overflow-y: auto;
 }
 .show {
   right: 0;
+}
+.totale {
+  position: fixed;
+  bottom: 40px;
 }
