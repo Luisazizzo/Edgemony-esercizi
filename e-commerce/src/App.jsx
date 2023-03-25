@@ -7,6 +7,7 @@ import CardDescription from "./components/cardDescription";
 import { useEffect, useState } from "react";
 import { GET } from "./utils/http";
 import "./App.css";
+import Footer from "./components/footer";
 
 function App() {
   const [cardDescription, setCardDescription] = useState(false);
@@ -54,7 +55,9 @@ function App() {
         title="Skincare"
         endpoint="/products?limit=10&skip=10"
       />
+      <Footer />
       <TendinaCart cart={cart} setCart={setCart} tendinaCart={tendinaCart} />
+
       {cardDescription ? (
         <CardDescription
           cart={cart}
